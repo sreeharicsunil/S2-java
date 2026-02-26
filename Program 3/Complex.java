@@ -10,7 +10,7 @@ public class Complex {
 	public static Complex sum(Complex c1, Complex c2) {
 		Complex temp = new Complex(0, 0);
 		temp.real = c1.real + c2.real;
-		temp.imaginary = c2.imaginary + c2.imaginary;
+		temp.imaginary = c1.imaginary + c2.imaginary;
 		return temp;
 	}
 	
